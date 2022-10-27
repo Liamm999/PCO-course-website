@@ -5,9 +5,7 @@
 - Body text - dark gray #555 */
 
 
-/******************************/
 /*     01. General Styles     */
-/******************************/
 body,
 html {
     width: 100%;
@@ -29,6 +27,11 @@ body, p {
 
 .p-heading {
 	margin-bottom: 3.75rem;
+}
+
+.title {
+	font: 700 2.75rem/3.375rem "Montserrat", sans-serif;
+	font-size: 22px;
 }
 
 h1 {
@@ -73,6 +76,10 @@ a:hover {
 
 .white {
 	color: #eee;
+}
+
+.black {
+	color: #333;
 }
 
 /* Button style general */
@@ -797,55 +804,57 @@ input[type='checkbox'] {
 /****************************/
 /*     05. Registration     */
 /****************************/
-.form-1 {
-	padding-top: 6rem;
-	padding-bottom: 6.25rem;
+.unitDetails {
+	padding-top: 7rem;
+	padding-bottom: 3.25rem;
 	background-color: #06bbcc;
 }
 
-.form-1 h2 {
-	margin-bottom: 1.25rem;
+.unitDetails h2 {
+	margin-bottom: 1.5rem;
+	margin-top: -4.25rem;
 }
 
-.form-1 p,
-.form-1 .list-unstyled,
-.form-1 .help-block,
-.form-1 .checkbox,
-.form-1 .checkbox a {
+.unitDetails p,
+.unitDetails .list-unstyled,
+.unitDetails .help-block,
+.unitDetails .checkbox,
+.unitDetails .checkbox a {
 	color: #333;
 }
 
-.form-1 p {
+.unitDetails p {
 	margin-bottom: 1.5rem;
 }
 
-.form-1 .list-unstyled .fas {
+.unitDetails .list-unstyled .fas {
 	color: #333;
 	font-size: 0.5rem;
 	line-height: 1.5rem;
 }
 
-.form-1 .list-unstyled .media-body {
+.unitDetails .list-unstyled .media-body {
 	margin-left: 0.625rem;
+	margin-bottom: 1rem;
 }
 
-.form-1 .form-control-input {
-	border: 1px solid #ffedd0;
-	background-color: #ffedd0;
+.unitDetails .form-control-input {
+	border: 1px solid #fbf9f5;
+	background-color: #fbf9f5;
 }
 
-.form-1 .form-control-input:hover {
+.unitDetails .form-control-input:hover {
 	border: 1px solid #fff;
 }
 
-.form-1 .form-control-submit-button {
+.unitDetails .form-control-submit-button {
 	border: 0.125rem solid #333;
 	background-color: transparent;
 }
 
-.form-1 .form-control-submit-button:hover {
-	border: 0.125rem solid #ffedd0;
-	background-color: #ffedd0;
+.unitDetails .form-control-submit-button:hover {
+	border: 0.125rem solid #fbf9f5;
+	background-color: #fbf9f5;
 }
 
 
@@ -1406,8 +1415,8 @@ input[type='checkbox'] {
 
 .form-3 .form-control-input,
 .form-3 .form-control-textarea {
-	border: 1px solid #ffedd0;
-	background-color: #ffedd0;
+	border: 1px solid #fbf9f5;
+	background-color: #fbf9f5;
 }
 
 .form-3 .form-control-input:hover,
@@ -1427,8 +1436,8 @@ input[type='checkbox'] {
 }
 
 .form-3 .form-control-submit-button:hover {
-	border: 0.125rem solid #ffedd0;
-	background-color: #ffedd0;
+	border: 0.125rem solid #fbf9f5;
+	background-color: #fbf9f5;
 }
 
 
@@ -1653,7 +1662,7 @@ a:hover.back-to-top {
 
 
 	/* Registration */
-	.form-1 {
+	.unitDetails {
 		padding-top: 9rem;
 	}
 	/* end of registration */
@@ -1817,7 +1826,7 @@ a:hover.back-to-top {
 
 
 	/* Registration */
-	.form-1 {
+	.unitDetails {
 		padding-top: 10rem;
 	}
 	/* end of registration */
@@ -2008,16 +2017,16 @@ a:hover.back-to-top {
 	
 
 	/* Registration */
-	.form-1 {
+	.unitDetails {
 		padding-top: 12rem;
 	}
 
-	.form-1 .text-container {
+	.unitDetails .text-container {
 		margin-top: 1rem;
 		margin-right: 3.5rem;
 	}
 
-	.form-1 form {
+	.unitDetails form {
 		margin-left: 1.5rem;
 	}
 	/* end of registration */
