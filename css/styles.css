@@ -8,6 +8,8 @@
 /*     01. General Styles     */
 body,
 html {
+	margin: 0;
+	padding: 0;
     width: 100%;
 	height: 100%;
 }
@@ -907,12 +909,21 @@ input[type='checkbox'] {
 }
 
 .basic-2 h2 {
-	margin-bottom: 3.75rem;
+	margin-bottom: 1.75rem;
+	text-align: center;
+}
+
+.basic-2 p {
+	margin-bottom: 5.75rem;
 	text-align: center;
 }
 
 .basic-2 .li-space-lg li {
-	margin-bottom: 1.375rem;
+	margin-bottom: 2.375rem;
+}
+
+.basic-2 .media {
+	align-items: center;
 }
 
 .basic-2 .list-unstyled .bullet {
@@ -1224,8 +1235,13 @@ input[type='checkbox'] {
 }
 
 .slider-2 h3 {
-	margin-bottom: 3.75rem;
+	margin-bottom: 4.75rem;
 	text-align: center;
+	font-size: 2.5rem;
+}
+
+.slider-2 a {
+	color: #06bbcc;
 }
 
 .slider-2 .slider-container {
