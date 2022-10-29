@@ -1876,6 +1876,12 @@ a:hover.back-to-top {
 	/* Student list */
 	.studentList {
 		margin-bottom: 3rem;
+		margin-top: 5rem;
+
+	}
+
+	.studentList h5 {
+		margin-top: 0.2rem;
 	}
 
 	.stdList__header {
@@ -1887,6 +1893,7 @@ a:hover.back-to-top {
 	.card {
 		box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
 	}
+
 	.card {
 		position: relative;
 		display: flex;
@@ -1934,7 +1941,6 @@ a:hover.back-to-top {
 		font-size: .9em!important;
 	}
 	
-	
 	.bgc-h-secondary-l4:hover, .bgc-secondary-l4 {
 		background-color: #f2f4f6!important;
 	}
@@ -1947,6 +1953,7 @@ a:hover.back-to-top {
 	.text-95 {
 		font-size: .95em!important;
 	}
+
 
 	/* Contact */
 	.form-3 .text-container {
